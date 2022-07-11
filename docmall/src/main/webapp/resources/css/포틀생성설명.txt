@@ -1,0 +1,50 @@
+스프링 프로젝트 구조.
+docmall.com
+
+기본패키지
+com.docmall.domain
+
+1)com.docmall.controller
+2)com.docmall.service
+3)com.docmall.mapper
+4) sql mapper폴더생성  : com/docmall/mapper 폴더
+
+
+기능추가 패키지
+com.docmall.aop
+com.docmall.exception
+
+
+라이브러리 및 환경설정
+pom.xml
+root-context.xml
+servlet-context.xml
+web.xml
+
+sql로그 : 파일 2개
+  1. log4jdbc.log4j2.properties
+  2. logback.xml
+
+log4j.xml : 내용을 변경
+
+
+부트스트랩 템플릿 적용
+  AdminLTE 2.17
+
+기능이 예약된 폴더
+Resource 폴더 :  css, js, image 등의 파일들을 보관한다.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
